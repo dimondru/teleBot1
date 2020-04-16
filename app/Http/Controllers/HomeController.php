@@ -10,8 +10,9 @@ class HomeController extends Controller
 
     public function index(){
 
-        $massages = UserMasseges::all()->get();
+        $massages = UserMasseges::all();
 
-        return view('home.massage_list',['massages'=>$massages]);
+
+        return view('home.massage_list',['massages'=>collect($massages)]);
     }
 }
