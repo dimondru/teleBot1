@@ -10,7 +10,7 @@ class HomeController extends Controller
 
     public function index(){
 
-        $massages = UserMasseges::all();
+        $massages = UserMasseges::all()->get();
 
         return view('home.massage_list',['massages'=>$massages]);
     }
