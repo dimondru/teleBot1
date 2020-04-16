@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b572d1-509c-4274-9290-1b6d307373b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BotController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/DTO/InputMassageDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/MassageManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,10 +153,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\oSPanel\domains\teleBot\app\Http\Controllers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -176,7 +185,7 @@
       <workItem from="1587022414714" duration="84000" />
       <workItem from="1587029547063" duration="1473000" />
       <workItem from="1587033778163" duration="3036000" />
-      <workItem from="1587037259430" duration="955000" />
+      <workItem from="1587037259430" duration="2150000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1587035630247</created>
@@ -199,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587037983336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1587038234812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587038234812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,10 +226,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1587037982681">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1587039218275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587037982681" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587039218275" />
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1587038234109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587038234109" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587036200514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,14 +250,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="748" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587037287784" />
+    <state x="754" y="242" key="NewPhpClassDialog" timestamp="1587038916363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587038916363" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1587038864643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587038864643" />
     <state x="783" y="222" key="RollbackChangesDialog" timestamp="1587037924172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587037924172" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587037984657">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587038235822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587037984657" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587038235822" />
     <state x="814" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1587037336992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::any('/', function () {
+Route::post('/','incoming@BotController');
+/*Route::post('/', function () {
 
 
     $keyboard = [
@@ -49,7 +49,7 @@ Route::any('/', function () {
     ]);
 
 
-});
+});*/
 
 // Example of POST Route:
 Route::post('/1215643909:AAHu_E1TBMkFAsD4f9dbKejEu2r99mSl2j8/webhook', function () {
