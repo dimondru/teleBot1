@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\MassageManager;
 
+use Telegram\Bot\Laravel\Facades\Telegram as Telegram;
+
 class BotController extends Controller
 {
 

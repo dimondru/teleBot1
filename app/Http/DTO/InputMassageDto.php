@@ -12,7 +12,7 @@ class InputMassageDto
     public function __construct($data)
     {
         $this->text = $data['text'];
-        $this->chat_id = $data['chat_id'];
+        $this->chat_id = '508562772';
     }
 
 }

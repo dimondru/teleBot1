@@ -5,6 +5,7 @@ namespace App\Http;
 
 
 use App\Http\DTO\InputMassageDto;
+use Telegram\Bot\Laravel\Facades\Telegram as Telegram;
 
 /**
  * Class MassageManager
