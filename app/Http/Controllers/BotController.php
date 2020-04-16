@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\MassageManager;
+use App\MassageManager;
 
 use Telegram\Bot\Laravel\Facades\Telegram as Telegram;
 
