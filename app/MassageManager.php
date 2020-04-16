@@ -4,7 +4,7 @@
 namespace App;
 
 
-use App\Http\DTO\InputMassageDto;
+use App\DTO\InputMassageDto;
 use Telegram\Bot\Laravel\Facades\Telegram as Telegram;
 
 /**
