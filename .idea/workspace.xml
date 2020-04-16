@@ -4,10 +4,8 @@
     <list default="true" id="d3b572d1-509c-4274-9290-1b6d307373b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BotController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/DTO/InputMassageDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/DTO/InputMassageDto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/MassageManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/MassageManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/DTO/InputMassageDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO/InputMassageDto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/MassageManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/MassageManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +140,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\oSPanel\domains\teleBot\app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\oSPanel\domains\teleBot\app\Http\Controllers" />
     </key>
@@ -169,7 +170,7 @@
       <workItem from="1587029547063" duration="1473000" />
       <workItem from="1587033778163" duration="3036000" />
       <workItem from="1587037259430" duration="3652000" />
-      <workItem from="1587056429421" duration="2626000" />
+      <workItem from="1587056429421" duration="3022000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1587035630247</created>
@@ -206,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587039430642</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1587059321934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587059321934</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587039218275" />
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1587039429935">
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1587059321219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587039429935" />
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587059321219" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587036200514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587037924172" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587039432095">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587059324601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587039432095" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587059324601" />
     <state x="814" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1587037336992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

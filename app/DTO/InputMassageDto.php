@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Http\DTO;
+namespace App\DTO;
 
 
 class InputMassageDto
@@ -12,7 +12,7 @@ class InputMassageDto
     public function __construct($data)
     {
         $this->text = $data['text'];
-        $this->chat_id = '508562772';
+        $this->chat_id = $data['chat']['id'];
     }
 
 }

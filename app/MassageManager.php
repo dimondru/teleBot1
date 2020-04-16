@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Http;
+namespace App;
 
 
 use App\Http\DTO\InputMassageDto;
@@ -16,7 +16,7 @@ class MassageManager
     /**
      * @return array
      */
-    public function getInput () :array
+    public function getInput ()
     {
         return Telegram::getWebhookUpdate();
     }
