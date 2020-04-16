@@ -14,8 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::any('/','BotController@incoming');
+Route::post('/','BotController@incoming');
 
+Route::get('/','HomeController@index');
 // Example of POST Route:
 Route::post('/1215643909:AAHu_E1TBMkFAsD4f9dbKejEu2r99mSl2j8/webhook', function () {
 
