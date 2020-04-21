@@ -12,6 +12,7 @@ class BotController extends Controller
 
     public function incoming(){
 
+
         $massageManager = new MassageManager();
         $massageDTO  = $massageManager->createMassageDto();
 
