@@ -2,7 +2,9 @@
 
 namespace App\Console;
 
+use App\Bot\Massage;
 use App\Bot\SendMassage;
+use App\Models\Users\BotUsers;
 use App\Models\Users\UserMasseges;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -26,18 +28,21 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->call(function () {
-           $message = new UserMasseges;
-            $message->chat_id =  '1sd' ;
-           $message->text =  '1sd'.date('H:i:s',time()) ;
-           $message->save();
-           return '1';
-        })->everyMinute();
+
 
         $schedule->call(function () {
-            $sender = new SendMassage();
-            $sender->sendMassage('508562772','hello '.date('H:i:s',time()));
+
+            $users = BotUsers::all()->get('chat_id');
+
+            foreach ($users as $user){
+                $m = new Massage();
+                $m->sendMassage($users['chat_id'],'1sd'.date('H:i:s',time()));
+
+            }
+
         })->everyMinute();
+
+
     }
 
 

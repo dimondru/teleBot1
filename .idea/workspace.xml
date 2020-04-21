@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b572d1-509c-4274-9290-1b6d307373b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Bot/SendMassage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Users/BotUsers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Bot/SendMassage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bot/Massage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BotController.php" afterDir="false" />
     </list>
@@ -141,18 +142,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models/Users" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\oSPanel\domains\teleBot\app\Models\Users" />
+      <recent name="C:\oSPanel\domains\teleBot\app\Http\Controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\oSPanel\domains\teleBot\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\oSPanel\domains\teleBot\app\Http\Controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -183,7 +185,8 @@
       <workItem from="1587140159105" duration="1194000" />
       <workItem from="1587304093007" duration="708000" />
       <workItem from="1587369732882" duration="1212000" />
-      <workItem from="1587424625665" duration="2306000" />
+      <workItem from="1587424625665" duration="5524000" />
+      <workItem from="1587453174166" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1587035630247</created>
@@ -276,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587061045769</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1">
+      <created>1587427392500</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587427392500</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,10 +303,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587039218275" />
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1587061044996">
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1587427391729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587061044996" />
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587427391729" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587036200514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -325,10 +335,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="783" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587037924172" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587061048462">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587427393702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587061048462" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587427393702" />
     <state x="814" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1587037336992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -337,5 +347,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="255" width="587" height="530" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587039890993" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/artisan</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
