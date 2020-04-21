@@ -32,11 +32,11 @@ class Kernel extends ConsoleKernel
 
         $schedule->call(function () {
 
-            $users = BotUsers::all()->get('chat_id');
+            $users = BotUsers::all();
 
             foreach ($users as $user){
                 $m = new Massage();
-                $m->sendMassage($users['chat_id'],'1sd'.date('H:i:s',time()));
+                $m->sendMassage($user['chat_id'],'1sd'.date('H:i:s',time()));
 
             }
 
